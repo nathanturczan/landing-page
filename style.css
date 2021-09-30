@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@font-face {
+  font-family: "Chewy";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/Chewy-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Bungee";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/Bungee-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/Karla/Karla-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 700;
+    src: url("./fonts/Karla/Karla-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/Mulish/Mulish-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 700;
+    src: url("./fonts/Mulish/Mulish-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Glow Better";
+    font-style: normal;
+    font-weight: normal;
+    src: local("../fonts/Glow Better Serif"),
+        url("./fonts/Glow Better Serif.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Glow Better Script";
+    font-style: normal;
+    font-weight: normal;
+    src: local("../fonts/Glow Better Script"),
+        url("./fonts/Glow Better Script.otf") format("truetype");
+}
+
+body {
+    background: #f8f4ff;
+    margin: 0;
+    overscroll-behavior-y: none;
+    font-family: "Mulish";
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: black;
+    font-size: 48px;
+    line-height: 30px;
+    font-weight: 300;
+
+
+}
+
+.heading-left {
+    text-align: left;
+}
+
+.heading-right {
+    text-align: right;
+}
+
+.banner {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    height: 60px;
+    background-color: #FFDE6A;
+}
+
+.w-nav-link {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    color: #222;
+    padding: 20px;
+    text-align: left;
+    font-weight: 900;
+    font-size: xxx-large;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-18px;
+    color: #FF5E60;
+    font-family: "Karla";
+}
+
+.w-nav-menu {
+    position: relative;
+    float: right;
+}
+
+.w-nav-brand {
+    position: relative;
+    float: left;
+    text-decoration: none;
+    color: #333;
+}
+
+.w-nav-button {
+    position: relative;
+    float: right;
+    padding: 18px;
+    font-size: 24px;
+    display: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+p {
+    margin: 18px;
+    font-family: Ubuntu, Helvetica, sans-serif;
+    color: #2e2e2e;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.hero-image-mask {
+    width: 100%;
+    margin-left: 40px;
+    float: right;
+}
+
+.paragraph-4 {
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+.w-container {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+}
+
+.feature-image {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -o-object-position: 50% 50%;
+    object-position: 50% 50%;
+    margin: 24px;
+}
+
+.heading-7 {
+    font-family: "Glow Better";
+    position: static;
+    padding-top: 16px;
+    padding-right: 26px;
+    padding-left: 15px;
+    float: left;
+    font-weight: 700;
+    -o-object-fit: fill;
+    object-fit: fill;
+}
+
+.heading-12 {
+    margin-top: 10px;
+
+    color: #fff;
+    line-height: 46px;
+}
+
+.hero {
+    display: block;
+    padding-top: 48px;
+    padding-bottom: 24px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #E8BA56;
+}
+
+.flex-container {
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #FFBC5E;
+}
+
+h5 {
+    font-family: "Karla";
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #676770;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 6px;
+}
+
+.logo {
+    flex: 0 0 auto;
+    font-family: "Glow Better";
+    font-weight: normal;
+    text-align: center;
+    line-height: 1;
+    color: white;
+    margin: 0 auto;
+    font-size: 36px;
+}
+
+#webapp_sublogo {
+	margin-top:0px;
+    flex: 0 0 auto;
+    font-family: "Glow Better Script";
+    font-weight: normal;
+    text-align: right;
+    font-size: 25px;
+    line-height: 1;
+    color: $accent-medium;
+    margin-right: 25%;
+
+}
+
+
+#plugin_sublogo {
+	display: inline;
+	margin-top:0px;
+    flex: 0 0 auto;
+    font-family: "Bungee";
+    font-weight: normal;
+    text-align: right;
+    font-size: 40px;
+    line-height: 1;
+    color: $accent-medium;
+    margin-right: 25%;
+
+}
+
+.brand-logo {
+    position: relative;
+    float: left;
+    text-decoration: none;
+    color: #333;
+}

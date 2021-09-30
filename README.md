@@ -1,2 +1,1 @@
-# landing-page
-landing_page_scalenavigator
+build scale navigator homepage.
