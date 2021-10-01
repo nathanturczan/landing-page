@@ -72,8 +72,6 @@ h3 {
     font-size: 48px;
     line-height: 30px;
     font-weight: 300;
-
-
 }
 
 .heading-left {
@@ -83,6 +81,18 @@ h3 {
 .heading-right {
     text-align: right;
 }
+
+/* Portrait */
+@media screen and (orientation:portrait) {
+   /* Portrait styles here */
+}
+/* Landscape */
+@media screen and (orientation:landscape) {
+   /* Landscape styles here */
+}
+
+
+
 
 .banner {
     position: -webkit-sticky;
@@ -157,7 +167,7 @@ p {
     color: #f0f0f0;
 }
 
-.w-container {
+.container {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
@@ -174,7 +184,7 @@ p {
     margin: 24px;
 }
 
-.heading-7 {
+.title-logo {
     font-family: "Glow Better";
     position: static;
     padding-top: 16px;
