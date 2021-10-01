@@ -163,7 +163,7 @@ p {
     padding-top: 24px;
 }
 .hero-image-mask:hover {
-    background:#FFDE6A;
+    background: radial-gradient(#FFDE6A 28%, #ffffff00 72%);
 }
 
 .paragraph-4 {
