@@ -281,7 +281,7 @@ h5 {
     text-align: right;
     font-size: 25px;
     line-height: 1;
-    color: $accent-medium;
+    color: black;
     margin-right: 25%;
 
 }
@@ -296,7 +296,7 @@ h5 {
     text-align: right;
     font-size: 40px;
     line-height: 1;
-    color: $accent-medium;
+    color: black;
     margin-right: 25%;
 
 }
