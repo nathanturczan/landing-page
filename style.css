@@ -160,6 +160,10 @@ p {
     width: 100%;
     margin-left: 40px;
     float: right;
+    padding-top: 24px;
+}
+.hero-image-mask:hover {
+    background:#FFDE6A;
 }
 
 .paragraph-4 {
